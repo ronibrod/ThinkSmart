@@ -1,0 +1,302 @@
+[
+    {
+        "date": "2024-06-01",
+        "day_of_week": 6,
+        "temperature_celsius": 25,
+        "sales": {
+            "Espresso": 45,
+            "Latte": 60,
+            "Cappuccino": 50
+        }
+    },
+    {
+        "date": "2024-06-02",
+        "day_of_week": 7,
+        "temperature_celsius": 26,
+        "sales": {
+            "Espresso": 48,
+            "Latte": 65,
+            "Cappuccino": 55
+        }
+    },
+    {
+        "date": "2024-06-03",
+        "day_of_week": 1,
+        "temperature_celsius": 24,
+        "sales": {
+            "Espresso": 50,
+            "Latte": 70,
+            "Cappuccino": 52
+        }
+    },
+    {
+        "date": "2024-06-04",
+        "day_of_week": 2,
+        "temperature_celsius": 27,
+        "sales": {
+            "Espresso": 55,
+            "Latte": 75,
+            "Cappuccino": 58
+        }
+    },
+    {
+        "date": "2024-06-05",
+        "day_of_week": 3,
+        "temperature_celsius": 28,
+        "sales": {
+            "Espresso": 53,
+            "Latte": 72,
+            "Cappuccino": 60
+        }
+    },
+    {
+        "date": "2024-06-06",
+        "day_of_week": 4,
+        "temperature_celsius": 26,
+        "sales": {
+            "Espresso": 49,
+            "Latte": 68,
+            "Cappuccino": 56
+        }
+    },
+    {
+        "date": "2024-06-07",
+        "day_of_week": 5,
+        "temperature_celsius": 25,
+        "sales": {
+            "Espresso": 52,
+            "Latte": 74,
+            "Cappuccino": 57
+        }
+    },
+    {
+        "date": "2024-06-08",
+        "day_of_week": 6,
+        "temperature_celsius": 26,
+        "sales": {
+            "Espresso": 54,
+            "Latte": 76,
+            "Cappuccino": 59
+        }
+    },
+    {
+        "date": "2024-06-09",
+        "day_of_week": 7,
+        "temperature_celsius": 27,
+        "sales": {
+            "Espresso": 51,
+            "Latte": 71,
+            "Cappuccino": 54
+        }
+    },
+    {
+        "date": "2024-06-10",
+        "day_of_week": 1,
+        "temperature_celsius": 24,
+        "sales": {
+            "Espresso": 47,
+            "Latte": 66,
+            "Cappuccino": 53
+        }
+    },
+    {
+        "date": "2024-06-11",
+        "day_of_week": 2,
+        "temperature_celsius": 23,
+        "sales": {
+            "Espresso": 55,
+            "Latte": 73,
+            "Cappuccino": 60
+        }
+    },
+    {
+        "date": "2024-06-12",
+        "day_of_week": 3,
+        "temperature_celsius": 22,
+        "sales": {
+            "Espresso": 49,
+            "Latte": 69,
+            "Cappuccino": 56
+        }
+    },
+    {
+        "date": "2024-06-13",
+        "day_of_week": 4,
+        "temperature_celsius": 24,
+        "sales": {
+            "Espresso": 52,
+            "Latte": 70,
+            "Cappuccino": 57
+        }
+    },
+    {
+        "date": "2024-06-14",
+        "day_of_week": 5,
+        "temperature_celsius": 25,
+        "sales": {
+            "Espresso": 54,
+            "Latte": 74,
+            "Cappuccino": 59
+        }
+    },
+    {
+        "date": "2024-06-15",
+        "day_of_week": 6,
+        "temperature_celsius": 26,
+        "sales": {
+            "Espresso": 50,
+            "Latte": 71,
+            "Cappuccino": 55
+        }
+    },
+    {
+        "date": "2024-06-16",
+        "day_of_week": 7,
+        "temperature_celsius": 27,
+        "sales": {
+            "Espresso": 48,
+            "Latte": 66,
+            "Cappuccino": 54
+        }
+    },
+    {
+        "date": "2024-06-17",
+        "day_of_week": 1,
+        "temperature_celsius": 28,
+        "sales": {
+            "Espresso": 51,
+            "Latte": 68,
+            "Cappuccino": 56
+        }
+    },
+    {
+        "date": "2024-06-18",
+        "day_of_week": 2,
+        "temperature_celsius": 29,
+        "sales": {
+            "Espresso": 53,
+            "Latte": 75,
+            "Cappuccino": 60
+        }
+    },
+    {
+        "date": "2024-06-19",
+        "day_of_week": 3,
+        "temperature_celsius": 30,
+        "sales": {
+            "Espresso": 49,
+            "Latte": 72,
+            "Cappuccino": 57
+        }
+    },
+    {
+        "date": "2024-06-20",
+        "day_of_week": 4,
+        "temperature_celsius": 31,
+        "sales": {
+            "Espresso": 50,
+            "Latte": 73,
+            "Cappuccino": 58
+        }
+    },
+    {
+        "date": "2024-06-21",
+        "day_of_week": 5,
+        "temperature_celsius": 32,
+        "sales": {
+            "Espresso": 52,
+            "Latte": 70,
+            "Cappuccino": 55
+        }
+    },
+    {
+        "date": "2024-06-22",
+        "day_of_week": 6,
+        "temperature_celsius": 33,
+        "sales": {
+            "Espresso": 54,
+            "Latte": 76,
+            "Cappuccino": 59
+        }
+    },
+    {
+        "date": "2024-06-23",
+        "day_of_week": 7,
+        "temperature_celsius": 27,
+        "sales": {
+            "Espresso": 47,
+            "Latte": 66,
+            "Cappuccino": 53
+        }
+    },
+    {
+        "date": "2024-06-24",
+        "day_of_week": 1,
+        "temperature_celsius": 26,
+        "sales": {
+            "Espresso": 51,
+            "Latte": 70,
+            "Cappuccino": 57
+        }
+    },
+    {
+        "date": "2024-06-25",
+        "day_of_week": 2,
+        "temperature_celsius": 25,
+        "sales": {
+            "Espresso": 55,
+            "Latte": 75,
+            "Cappuccino": 60
+        }
+    },
+    {
+        "date": "2024-06-26",
+        "day_of_week": 3,
+        "temperature_celsius": 24,
+        "sales": {
+            "Espresso": 49,
+            "Latte": 68,
+            "Cappuccino": 56
+        }
+    },
+    {
+        "date": "2024-06-27",
+        "day_of_week": 4,
+        "temperature_celsius": 23,
+        "sales": {
+            "Espresso": 52,
+            "Latte": 74,
+            "Cappuccino": 58
+        }
+    },
+    {
+        "date": "2024-06-28",
+        "day_of_week": 5,
+        "temperature_celsius": 22,
+        "sales": {
+            "Espresso": 50,
+            "Latte": 72,
+            "Cappuccino": 55
+        }
+    },
+    {
+        "date": "2024-06-29",
+        "day_of_week": 6,
+        "temperature_celsius": 21,
+        "sales": {
+            "Espresso": 53,
+            "Latte": 70,
+            "Cappuccino": 57
+        }
+    },
+    {
+        "date": "2024-06-30",
+        "day_of_week": 7,
+        "temperature_celsius": 20,
+        "sales": {
+            "Espresso": 49,
+            "Latte": 66,
+            "Cappuccino": 54
+        }
+    }
+]
