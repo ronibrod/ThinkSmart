@@ -17,20 +17,19 @@ def get_sales():
   requestData = json.loads(request.args.to_dict()['query'])
 
   query = {
-    # 'date': {
-      # '$lte': datetime.strptime(requestData['startTime'], '%Y-%m-%dT%H:%M:%S.%fZ'),
-      # '$gte': datetime.strptime(requestData['endTime'], '%Y-%m-%dT%H:%M:%S.%fZ'),
-    # },
+    'date': {
+      '$gte': datetime.strptime(requestData['startTime'], '%Y-%m-%dT%H:%M:%S.%fZ'),
+      '$lte': datetime.strptime(requestData['endTime'], '%Y-%m-%dT%H:%M:%S.%fZ'),
+    },
   }
   
   if 'products' in requestData:
-    query['product'] = {'$in': requestData['product']}
+    query['product'] = {'$in': requestData['products']}
 
   if 'categories' in requestData:
-    query['category'] = {'$in': requestData['category']}
+    query['category'] = {'$in': requestData['categories']}
     
   print(requestData)
-  # list_of_sales = list(salesCollection.find(query))
   list_of_sales = list(salesCollection.find(query))
   for sale in list_of_sales:
     if '_id' in sale:
