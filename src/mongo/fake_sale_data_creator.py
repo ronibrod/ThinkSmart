@@ -27,6 +27,11 @@ def create_sales_array(start_date, end_date):
         'product': products_by_category[list_of_categories[random_number_of_category]][random_number_of_product]['name'],
         'category': products_by_category[list_of_categories[random_number_of_category]][random_number_of_product]['category'],
         'date': time,
+        'year': time.year,
+        'month': time.month,
+        'day_of_month': time.day,
+        'day_of_week': time.weekday(),
+        'hour': time.hour,
       })
 
   return salse_array
