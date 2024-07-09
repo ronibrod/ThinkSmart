@@ -6,7 +6,9 @@ from fake_sale_data_creator import create_sales_array
 
 collectionName = 'lizCafeteria'
 start_date = datetime(2022, 1, 1)
-end_date = datetime(2023, 12, 31)
+end_date = datetime(2024, 7, 31)
+# start_date = datetime(2024, 7, 31)
+# end_date = datetime(2024, 7, 31)
 
 collection = startCollection(collectionName)
 dayCollection = collection['day']

@@ -1,7 +1,10 @@
+import random
+
 categories_data = [
   {
     'name': 'Coffee',
     'hebrewNeme': 'קפה',
+    'basePrice': 10,
     'types': [
       {
         'name': 'Espresso',
@@ -32,6 +35,7 @@ categories_data = [
   {
     'name': 'Ice_Cream',
     'hebrewNeme': 'גלידה',
+    'basePrice': 18,
     'types': [
       {
         'name': 'Vanilla',
@@ -66,6 +70,7 @@ categories_data = [
   {
     'name': 'Cans',
     'hebrewNeme': 'פחיות',
+    'basePrice': 7,
     'types': [
       {
         'name': 'Coca_Cola',
@@ -92,6 +97,7 @@ categories_data = [
   {
     'name': 'Beer',
     'hebrewNeme': 'בירה',
+    'basePrice': 28,
     'types': [
       {
         'name': 'Heineken',
@@ -112,15 +118,19 @@ categories_data = [
 def create_products_array():
   products_array = []
 
-  for category in categories_data:
-    
+  for category in categories_data:    
     for product in category['types']:
+      random_number_add_to_price = random.randint(0, round(category['basePrice'] * 0.3))
+      random_number_sub_for_cost = random.randint(round(category['basePrice'] * 0.4), round(category['basePrice'] * 0.7))
+      
       products_array.append({
         'product_id': category['name'] + '_' + product['name'],
         'category': category['name'],
         'categoryHebrewNeme': category['hebrewNeme'],
         'name': product['name'],
         'hebrewNeme': product['hebrewNeme'],
+        'price': category['basePrice'] + random_number_add_to_price,
+        'cost': category['basePrice'] - random_number_sub_for_cost,
       })
 
   return products_array
