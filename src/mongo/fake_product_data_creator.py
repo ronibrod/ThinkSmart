@@ -118,8 +118,8 @@ categories_data = [
 def create_products_array():
   products_array = []
 
-  for category in categories_data:    
-    for product in category['types']:
+  for category_index, category in enumerate(categories_data):    
+    for product_index, product in enumerate(category['types']):
       random_number_add_to_price = random.randint(0, round(category['basePrice'] * 0.3))
       random_number_sub_for_cost = random.randint(round(category['basePrice'] * 0.4), round(category['basePrice'] * 0.7))
       
@@ -127,8 +127,10 @@ def create_products_array():
         'product_id': category['name'] + '_' + product['name'],
         'category': category['name'],
         'categoryHebrewNeme': category['hebrewNeme'],
+        'categoryNum': category_index + 1,
         'name': product['name'],
         'hebrewNeme': product['hebrewNeme'],
+        'productNum': product_index + (category_index * 100) + 1,
         'price': category['basePrice'] + random_number_add_to_price,
         'cost': category['basePrice'] - random_number_sub_for_cost,
       })

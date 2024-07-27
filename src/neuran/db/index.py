@@ -13,4 +13,7 @@ def get_sales_collection(user_name):
 
 def get_days_collection(user_name):
   return client[user_name]['day']
+
+def get_products_collection(user_name):
+  return client[user_name]['product']
   
